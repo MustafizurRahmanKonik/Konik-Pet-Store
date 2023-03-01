@@ -1,0 +1,66 @@
+.cont{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    color: #383838;
+    padding: 10px 40px;
+    justify-content: center;
+    border-radius: 6px;
+}
+.ing{
+    margin: 10px 30px;
+}
+.ing li{
+    display: inline-block;
+    margin: 0 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 45px;
+    cursor: pointer;
+    background-position: 0 -45px;
+    transition: background-position 0.5s;
+}
+
+.ing li.active{
+    color: #fff;
+    background-image: linear-gradient(blue, blue);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.btn1,.btn2{
+    display: inline-flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: #383838;
+    background: transparent;
+    outline: none;
+    border:none;
+    cursor: pointer;
+    
+}
+
+.btn1 img{
+    width: 24px;
+    margin-right: 15px;
+}
+.btn2 img{
+    width: 24px;
+    margin-right: 15px;
+    padding-right: auto;
+    float: right;
+    transform: rotate(180deg);/* image rotate er jonne use hoi*/
+}
+
